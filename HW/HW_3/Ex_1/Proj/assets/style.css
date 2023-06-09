@@ -1,0 +1,47 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    }
+    
+
+h1, h2 {
+    color: green;
+    font-size: 40;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.title {
+    color: rgba(0, 0, 0, 0.527);
+    font-size: 75;
+}
+
+.boxWrapper {
+    border: 2px solid rgba(0, 0, 0, 0.233);
+    margin-top: 30px;
+    display: flex;
+}
+
+.box {
+
+    width: 2000px;
+    /* задал ширину блока */
+
+    padding: 20px;
+    /* задал внутренние отступы */
+}
+
+.image {
+    display: flex;
+    /* открепили структуру и обозначили этот класс как flex-контент */
+    justify-content: center;
+    /* выровняли flex - контент */
+    margin: auto;
+}
+
+.linc {
+    margin-top: 10px;
+    font-size: 15px;
+}
