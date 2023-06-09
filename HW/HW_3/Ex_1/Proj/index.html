@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru"> <!-- не сильно важно какой язык задавать, но для поиска можно -->
+
+<head>
+    <meta charset="UTF-8"> <!-- этот тег meta нужен для задания кодировки -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- X-UA-Compatible - нужно чтобы Internet Explorer понимал сайт-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- этот тег нужен чтобы в мобильной и десктопной версии текст отображался корректно и не вылазил на пределы экрана, но это не поможет-->
+    <link rel="stylesheet" href="./assets/style.css"> <!-- подключили стили -->
+    <title>Ex_1</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <section>
+        <h1 class="title" id="Hello">Привет Чувак!</h1>
+        <!-- style="font-size: 10px; color: aqua;" - это INLINE стиль, который определяет стиль внутри элемента, аналог <style>...</style> -->
+
+
+        <div class="boxWrapper"> <!-- boxWrapper - секция обложка -->
+            <div class="box">
+                <h2>Немного обо мне, Ковбой</h2>
+                <p>Здесь я буду рассказывать о своих достижениях в области изучения HTML и CSS.
+                    <b>Которых НЕТ</b>
+                    Но если приложить некоторые усилия... то из меня все равно ничего не получится.
+                </p>
+            </div>
+
+            <div class="image">
+                <img src="https://www.ageofcivilizationsgame.com/uploads/monthly_2021_06/maxresdefault.jpg.8b8eee5750ac1dea5dfe33a6bd0a59d4.jpg"
+                    alt="Что то против?" width="70%">
+            </div>
+
+        </div>
+
+        <div class="linc">
+            <a href="https://ya.ru/">Спросите у Яндекса</a>
+        </div>
+
+
+    </section>
+
+    <!-- Scripts -->
+    <script defer src="./assets/scripts/script.js"></script>
+
+
+</body>
+
+</html>
